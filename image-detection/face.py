@@ -7,7 +7,7 @@ eye_cascade = cv2.CascadeClassifier ('eye.xml')
 
 # opeing the default camera
 cap = cv2.VideoCapture(0)
-
+d De    
 while 1:
     ret, img = cap.read()
     # convert to gray and find faces first
